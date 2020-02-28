@@ -1,7 +1,7 @@
 const bills = [124, 48, 268];
 
 
-const tipAmount = function (bill) {
+function tipAmount(bill) {
     if (bill < 50){
         return bill * 0.2
     } else if (bill >= 50 && bill < 200){
