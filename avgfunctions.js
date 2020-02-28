@@ -14,18 +14,18 @@ GOOD LUCK
 
 const teamJohnScore = (80 + 120 + 103) / 3;
 const teamMikeScore = (116 + 94 + 123) / 3;
-const teamMaryScore = (97 + 134 + 105) / 3;
+const teamMaryScore = (97 + 134 + 129) / 3;
 
-function highestAvg (teamJohnScore, teamMikeScore, teamMaryScore) {
+function highestAvg(){
     if (teamJohnScore > teamMikeScore && teamJohnScore > teamMaryScore){
-        console.log(teamJohnScore)
+        console.log("John wins with " + teamJohnScore)
     } else if (teamMikeScore > teamJohnScore && teamMikeScore > teamMaryScore){
-        console.log(teamMikeScore)
+        console.log("Mike wins with " + teamMikeScore)
     } else if (teamMaryScore > teamMikeScore && teamMaryScore > teamJohnScore){
-        console.log(teamMaryScore)
+        console.log("Mary wins with " + teamMaryScore)
     } else {
         console.log('Draw')
     }
 }
 
-console.log(highestAvg())
+return highestAvg()
