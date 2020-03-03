@@ -36,3 +36,16 @@ function highestBMI (){
 }
 
 console.log(highestBMI())
+
+var stuff = [1,2,3,4,5]
+console.log(typeof stuff)
+
+function reverse () {
+    var newStuff = [];
+    for (let i = stuff.length - 1; i >= 0; i - 1){
+        newStuff[i] = stuff[i] 
+    }
+    return newStuff
+}
+
+console.log('reverse', reverse())
